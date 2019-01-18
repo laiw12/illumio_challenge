@@ -12,7 +12,7 @@ enter_url: I adapt the pattern matching provded in the instruction and used it t
 I created a test automation script. The script can perform user input by using the url.txt file provided. Basically, the test script checks for all functions such as url storage, page_num and user input for valid urls.
 To run the page test script, input the following command in the command window:
 #### python test_url.py < url.txt ####
-The test cases focus on corner cases such as first page/ last page of the data, valid/invalid Urls in different sequences. The correct outcome of is based on the logic of the code. 
+The test cases focus on corner cases such as first page/ last page of the data, valid/invalid input Urls in different sequences stored in url.txt file. The correct outcome of is based on the logic of the code. 
 
 ### Future Improvements 
 1. Currently, the data structure of storing the Urls is not perfect. I think it depends on the purpose of the usage of the Urls. If we want to have fast look up, dictionary is ideal. However, if we want to find the most recent searched Url, a LRU (least recently used cache) is an optimal datastructure since it can keep track of the most recent entered Url.
