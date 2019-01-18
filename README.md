@@ -16,5 +16,5 @@ The test cases focus on corner cases such as first page/ last page of the data, 
 
 ### Future Improvements 
 1. Currently, the data structure of storing the Urls is not perfect. I think it depends on the purpose of the usage of the Urls. If we want to have fast look up, dictionary is ideal. However, if we want to find the most recent searched Url, a LRU (least recently used cache) is an optimal datastructure since it can keep track of the most recent entered Url.
-2. Due to time limitation, the code of test automation is not reusable. It is better to construct a class to handle this type of jobs If we have more clear objectives of the code. 
+2. Due to time limitation, the code of test automation is not reusable. It is better to construct a class to handle this type of jobs If we have more details
 
