@@ -5,16 +5,15 @@ Created on Thu Jan 17 19:19:54 2019
 
 @author: csking
 """
-from  query_url import query_url
+from url_implementation  import url_implementation 
 import urllib.request, json 
 
 
 if __name__ == "__main__":
     
-    obj = query_url()
+    obj = url_implementation()  
     test_url = "http://dummy.restapiexample.com/api/v1/employees"
     print("-------------testing url storage -----------------------------------------")
-    obj = query_url()
     response = obj.query_url("http://dummy.restapiexample.com/api/v1/employees",0,5)
     if test_url in obj.url_stored:
         print("url stored succeccfull")
