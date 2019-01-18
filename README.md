@@ -9,7 +9,7 @@ query_url: a method takes a string of url, page number, number_of_rows and outpu
 enter_url: I adapt the pattern matching provded in the instruction and used it to validate if the input Url is correct. If the user input an invalid url, the user will have to more chances to enter it correctly. Otherwise, the session will expire. 
 
 ### Test Process
-I created a test automation script. The script can perform user input by using the url.txt file provided. Basically, the test script checks for all functions such as url storage, page_num and user input for valid urls.
+I created a test automation script test_url.py. The script can perform user input by using the url.txt file provided. Basically, the test script checks for all functions such as url storage, page_num and user input for valid urls.
 To run the page test script, input the following command in the command window:
 #### python test_url.py < url.txt ####
 The test cases focus on corner cases such as first page/ last page of the data, valid/invalid input Urls in different sequences stored in url.txt file. The correct outcome of is based on the logic of the code. 
